@@ -10,6 +10,9 @@ dependencies:
   download-git-repo:
     specifier: ^3.0.2
     version: 3.0.2
+  figlet:
+    specifier: ^1.6.0
+    version: 1.6.0
   ora:
     specifier: ^5.4.0
     version: 5.4.0
@@ -346,6 +349,12 @@ packages:
     resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
     dependencies:
       pend: 1.2.0
+    dev: false
+
+  /figlet@1.6.0:
+    resolution: {integrity: sha512-31EQGhCEITv6+hi2ORRPyn3bulaV9Fl4xOdR169cBzH/n1UqcxsiSB/noo6SJdD7Kfb1Ljit+IgR1USvF/XbdA==}
+    engines: {node: '>= 0.4.0'}
+    hasBin: true
     dev: false
 
   /file-type@3.9.0:
